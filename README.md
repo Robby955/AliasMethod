@@ -32,7 +32,7 @@ if(U[k]==1 & Kind[k]=="False"){
   for(i in 1:n){
     for(j in 1:n){
       
-      if(U[i]>1 & U[j]<1 & Kind[j]=="False"){
+  if(U[i]>1 & U[j]<1 & Kind[j]=="False"){
         K[j]=Z[i]
         Kind[j]="True"
         U[i]=U[i]+U[j]-1
