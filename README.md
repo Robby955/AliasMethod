@@ -4,7 +4,7 @@ Alias Method for sampling from a discrete distribution in R.
 The following example involved a discrete random probability that takes the value 1 with probability 0.2, 3 with probability 0.1
 5 with probability 0.3, and so forth. To do for other random variables, replace p and Z with your custom choices.
 
-$p<-c(0.2,0.1,0.3,0.25,0.15)$ #initial probabilities corresponding to 1,3,5,7,9.
+p<-c(0.2,0.1,0.3,0.25,0.15) #initial probabilities corresponding to 1,3,5,7,9.
 
 n=length(p)
 
