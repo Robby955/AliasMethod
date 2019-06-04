@@ -49,6 +49,7 @@ t<-rep(0,100)
 ##Code for implelenting Alias Method
 
 i=floor(n*x)+1
+
 y=n*x+1-i
 
 for(j in 1:100){ # for each j 
